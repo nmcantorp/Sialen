@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.sialen.com/pruebapagina</title>
+  <link>http://www.sialen.com/pruebapagina</link>
+
+<item>
+     <link>http://www.sialen.com/pruebapagina/</link>
+     <title>Sialen Ingenieros</title>
+     <description>Place to put your description text</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.sialen.com/pruebapagina/index.php</link>
+     <title>Sialen Ingenieros</title>
+     <description>Place to put your description text</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.sialen.com/pruebapagina/pages/about.php</link>
+     <title>Sialen Ingenieros</title>
+     <description>Empresa de Desarrollo Web</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.sialen.com/pruebapagina/pages/portfolio.php</link>
+     <title>Sialen Ingenieros</title>
+     <description>Empresa de Desarrollo Web</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.sialen.com/pruebapagina/pages/contact.php</link>
+     <title>Sialen Ingenieros</title>
+     <description>Empresa de Desarrollo Web</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.sialen.com/</link>
+     <title>Sialen Ingenieros</title>
+     <description>Sialen Ingenieros</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<!-- <item>
+     <link>http://www.sialen.com/banner_presentacion/banner.html</link>
+     <title>Banner</title>
+     <description>Banner</description>
+     <ror:updatePeriod>yearly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item> -->
+</channel>
+</rss>
+  

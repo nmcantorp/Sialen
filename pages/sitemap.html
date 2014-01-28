@@ -1,0 +1,78 @@
+<script>
+  $(document).ready(function($) {
+  	var valida = 1;
+    $('html.js body div#footer div.container div.one_fourth table tbody tr td.lpart table tbody tr td.lpage a').each(function() {
+      if (/<?= $archivo_actual ?>/.test($(this).attr('href'))) {
+
+	      	var sitio = $(this).text(); 
+	        $('a#sitemap_actual').text(sitio);
+	        valida = 0;
+
+       } else if(valida==1){
+
+	       	$('a#sitemap_actual').text('Home');
+
+       };          
+    });
+  });
+        
+</script>
+
+<h4>Página actual - <a href="javascript:void(0);" id="sitemap_actual"></a></h4><!-- Muestra la pagina en la que esta actualmente -->
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr valign="top">
+<td class="lpart" colspan="100"><div class="lhead">
+<span class="lcount"></span></div>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr><td class="lpage"><a href="http://www.sialen.com/" title="Sialen Ingenieros">Sialen Ingenieros</a></td></tr>
+</table>
+</td>
+</tr>
+
+<!-- <tr valign="top">
+<td class="lbullet">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td class="lpart" colspan="99"><div class="lhead">banner_presentacion/
+<span class="lcount">1 pages</span></div>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr><td class="lpage"><a href="http://www.sialen.com/banner_presentacion/banner.html" title="Banner">Banner</a></td></tr>
+</table>
+</td>
+</tr> -->
+<!-- 
+<tr valign="top">
+<td class="lbullet">&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td class="lpart" colspan="99"><div class="lhead">pruebapagina/
+<span class="lcount">2 pages</span></div>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr><td class="lpage"><a href="http://www.sialen.com/pruebapagina/" title="Sialen Ingenieros">Sialen Ingenieros</a></td></tr>
+<tr><td class="lpage"><a href="http://www.sialen.com/pruebapagina/index.php" title="Sialen Ingenieros">Sialen Ingenieros</a></td></tr>
+</table>
+</td>
+</tr> -->
+
+<tr valign="top">
+<td class="lbullet"></td>
+<td class="lbullet"></td>
+<td class="lpart" colspan="98"><div class="lhead">
+<!-- <span class="lcount">3 pages</span> --></div>
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<tr><td class="lpage"><a href="http://www.sialen.com/pages/about.php" title="Sialen Ingenieros">Nosotros</a></td></tr>
+<tr><td class="lpage"><a href="http://www.sialen.com/pages/portfolio.php" title="Sialen Ingenieros">Portafolio</a></td></tr>
+<tr><td class="lpage"><a href="http://www.sialen.com/pages/contact.php" title="Sialen Ingenieros">Contacto</a></td></tr>
+</table>
+</td>
+</tr>
+
+</table>
+<h4>Last updated: 2014, Enero 27</h4>
