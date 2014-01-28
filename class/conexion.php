@@ -6,9 +6,13 @@
 class ClassConexion
 {
 	public $host 	= 'localhost';
-	public $nomBD 	= 'sialen';
+	/*public $nomBD 	= 'sialen';
 	public $user 	= 'root';
-	public $pass	= '';
+	public $pass	= '';*/
+
+	public $nomBD 	= 'sialen5_pagina';
+	public $user 	= 'sialen5_PaginaOw';
+	public $pass	= 's14l3n2013';
 	
 	public $conexion; public $total_consultas;
 
