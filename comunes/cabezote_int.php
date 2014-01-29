@@ -1,9 +1,12 @@
 <?php session_start();
-  
+  	require_once('../class/parametes.php');
+  	$objParameters = new ClassParameters();
+	$objParameters->get_Parameters();
+
   	$archivo_actual = basename($_SERVER['PHP_SELF']);
 
-  	$captcha_publickey = "6LfdWu0SAAAAAJKLpqzRSlMUMIH9sVV_UKfcu1GQ";
-	$captcha_privatekey = "6LfdWu0SAAAAANI2W3vWp5u0xTRoe2xiGcqpG2TA";
+  	$captcha_publickey = captcha_publickey;
+	$captcha_privatekey = captcha_privatekey;
   	$error_captcha=null;
   	
  ?>

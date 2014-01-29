@@ -1,7 +1,7 @@
 <?php session_start();
 require_once('../class/recaptcha/recaptchalib.php'); 
-$captcha_publickey = "6LfdWu0SAAAAAJKLpqzRSlMUMIH9sVV_UKfcu1GQ";
-$captcha_privatekey = "6LfdWu0SAAAAANI2W3vWp5u0xTRoe2xiGcqpG2TA";
+$captcha_publickey = captcha_publickey;
+$captcha_privatekey = captcha_privatekey;
 $error_captcha=null;
 $captcha_respuesta = recaptcha_check_answer ($captcha_privatekey,$_SERVER["REMOTE_ADDR"],$_POST["recaptcha_challenge_field"],$_POST["recaptcha_response_field"]);
 
@@ -151,7 +151,7 @@ if ($_REQUEST['ac']=='contact') {
 		<p>
 			Visitenos en <a href='www.sialen.com'>www.Sialen.com</a></p>";
 
-	$result_email = $obj_mail->enviarEmail($_REQUEST['name'], $_REQUEST['email'], $html_mensaje, 'Mensaje Recibido Satisfactoriamente', '../comunes/templates/template_email.html' , 'mauricio.optime@hotmail.com');
+	$result_email = $obj_mail->enviarEmail($_REQUEST['name'], $_REQUEST['email'], $html_mensaje, 'Mensaje Recibido Satisfactoriamente', '../comunes/templates/template_email.html' , email_info);
 
 	if ($result_email==true) {
 		echo 'Mensaje enviado correctamente, en breve lo estaremos contactando';

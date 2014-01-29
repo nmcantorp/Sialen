@@ -23,11 +23,11 @@ class ClassMail extends ClassConexion
 		$mail->IsSMTP();
 		$mail->SMTPAuth   = true;                  // enable SMTP authentication
 		//$mail->SMTPSecure = "ssl";                 // sets the prefix to the servier
-		$mail->Host       = "mail.sialen.com";      // sets GMAIL as the SMTP server
-		$mail->Port       = 587;                   // set the SMTP port
+		$mail->Host       = host_mail;      // sets GMAIL as the SMTP server
+		$mail->Port       = port_mail;                   // set the SMTP port
 		$mail->Mailer   = "smtp";
-		$mail->Username   = "mcantor@sialen.com";  // GMAIL username
-		$mail->Password   = "SLmc040713";            // GMAIL password
+		$mail->Username   = user_mail;  // GMAIL username
+		$mail->Password   = pass_mail;            // GMAIL password
 
 		//$mail->From       = "replyto@yourdomain.com";
 		//$mail->FromName   = "Webmaster";
