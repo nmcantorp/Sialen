@@ -8,6 +8,13 @@
   	$captcha_publickey = captcha_publickey;
 	$captcha_privatekey = captcha_privatekey;
   	$error_captcha=null;
+
+    // seconds, minutes, hours, days
+$expires = 60*60*24*14;
+header("Pragma: public");
+header("Cache-Control: maxage=".$expires);
+header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
+
   	
  ?>
 

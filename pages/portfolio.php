@@ -16,7 +16,7 @@
   <div class="one_third lastcolumn">
     <h2>Quality Contact Center</h2>
     <p>Plataforma CMR para la gestión de campañas realizadas en el call center de la compañía LAN FENIX CONSULTORES S.A.S, la cual genera administración de información y crecimiento comercial a través de la misma, brindado una solución completa y concreta en los reportes, para la gestiones de seguimiento en los asesores que están a cargo de las campañas.</p>
-    <p class="portfolio"><a href="http://www.qualitycontaccenter.com/quadmin/login.html">Visite Website</a></p>
+    <p class="portfolio"><a href="http://www.qualitycontaccenter.com/quadmin/login.html" target="_blank">Visite Website</a></p>
   </div>
   <div class="two_third">
     <div class="flexslider">
@@ -30,7 +30,7 @@
   <div class="one_third lastcolumn">
     <h2>Lan Fenix Consultores</h2>
     <p>Plataforma de CMR en gestión comercial para el seguimiento de ventas y calendarios de cumplimiento en metas, con administración de información y reportes a un clic de la solución para los informes de ventas y seguimiento de la fuerza comercial.</p>
-    <p class="portfolio"><a href="http://www.lanfenixconsultores.com">Visite Website</a></p>
+    <p class="portfolio"><a href="http://www.lanfenixconsultores.com" target="_blank">Visite Website</a></p>
   </div>
   <div class="two_third">
     <div class="flexslider">
@@ -43,7 +43,7 @@
   <div class="one_third lastcolumn">
     <h2>Camara de Comercio del Piedemonte Araucano</h2>
     <p>Desarrollo de la página y plataforma de contenidos para la actualización de la misma, con vinculación a la intranet de la cámara.</h4>
-    <p class="portfolio"><a href="http://www.camarapiedemonte.com">Visite Website</a></p>
+    <p class="portfolio"><a href="http://www.camarapiedemonte.com" target="_blank">Visite Website</a></p>
   </div>
   <div class="two_third">
     <div class="flexslider">
@@ -55,7 +55,7 @@
   <div class="one_third lastcolumn">
     <h2>Interpaciolo</h2>
     <p>Desarrollo del sistema de geolocalización de transporte, con base en ambiente web, genera la ubicación de los carros de transporte de carga en mapas digitales a través de GPS, dando ubicación en tiempo real, y generando reportes y estadísticas de ubicación y recorridos.</h4>
-    <p class="portfolio"><a href="http://www.interpaciolo.com/_SGT/index.html">Visite Website</a></p>
+    <p class="portfolio"><a href="http://www.interpaciolo.com/_SGT/index.html" target="_blank">Visite Website</a></p>
   </div>
 </div>
 <!-- Portfolio Pagination ==================================================

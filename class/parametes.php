@@ -36,7 +36,7 @@ class ClassParameters extends ClassConexion
 		
 		if($db->num_rows($consulta)>0){ $conteo=0;
 		  while($resultados = $db->fetch_array($consulta)){ 
-            define($resultados['parameter_key'], $resultados['parameter_value']);
+		  	define($resultados['parameter_key'], $resultados['parameter_value'], true);
 		 }
 
 		}

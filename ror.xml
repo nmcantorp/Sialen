@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://www.sialen.com/pruebapagina</title>
+  <title>ROR Sitemap for http://www.sialen.com//title>
   <link>http://www.sialen.com/pruebapagina</link>
 
 <item>
-     <link>http://www.sialen.com/pruebapagina/</link>
+     <link>http://www.sialen.com/</link>
      <title>Sialen Ingenieros</title>
-     <description>Place to put your description text</description>
+     <description>Pagina inicial Sialen Ingenieros</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://www.sialen.com/pruebapagina/index.php</link>
+     <link>http://www.sialen.com/index.php</link>
      <title>Sialen Ingenieros</title>
-     <description>Place to put your description text</description>
+     <description>Pagina inicial Sialen Ingenieros</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://www.sialen.com/pruebapagina/pages/about.php</link>
+     <link>http://www.sialen.com/pages/about.php</link>
      <title>Sialen Ingenieros</title>
-     <description>Empresa de Desarrollo Web</description>
+     <description>Informacion acerca de la empresa</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://www.sialen.com/pruebapagina/pages/portfolio.php</link>
+     <link>http://www.sialen.com/pages/portfolio.php</link>
      <title>Sialen Ingenieros</title>
-     <description>Empresa de Desarrollo Web</description>
+     <description>Portafolio de la empresa con la descripcion de que se realizo en cada uno de los trabajos</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://www.sialen.com/pruebapagina/pages/contact.php</link>
+     <link>http://www.sialen.com/pages/contact.php</link>
      <title>Sialen Ingenieros</title>
-     <description>Empresa de Desarrollo Web</description>
+     <description>Pagina con los datos de contactos para los usuarios</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -47,7 +47,7 @@
 <item>
      <link>http://www.sialen.com/</link>
      <title>Sialen Ingenieros</title>
-     <description>Sialen Ingenieros</description>
+     <description>Pagina de Desarrollo Software centrado en la novedad</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
