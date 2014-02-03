@@ -88,7 +88,7 @@ if(isset($_SESSION['email'])){
       <h3>Registro y/o Logueo</h3>
       <div class="boxtwosep"></div>
       <h5><span class="color"></span>Regístrese y reciba novedades</h5>
-      <p><a href="../facebook/login_fb.php">Facebook</a></p>
+      <p><a href="../facebook/login_fb.php" target="_blank">Facebook</a></p>
     <?php }else{ ?>
       <h3>Usuario</h3>
       <div class="boxtwosep"></div>

@@ -1,5 +1,8 @@
 <?php
 require_once('src/facebook.php');
+require_once('../class/parametes.php');
+$objParameters = new ClassParameters();
+$objParameters->get_Parameters();
 
 $config = array();
 $config['appId'] = appId_fb;
