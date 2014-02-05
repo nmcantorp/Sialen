@@ -20,6 +20,7 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
  ?>
 
 <!DOCTYPE html>
+<!-- Marcado de microdatos añadido por el Asistente para el marcado de datos estructurados de Google. -->
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -80,12 +81,12 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
 
 <!-- Home - Content Part ==================================================
 ================================================== -->
-<div id="header">
+<div itemscope itemtype="http://schema.org/SoftwareApplication" id="header">
   <div class="container header"> 
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+      <div class="logo"><a href="index.html"><img itemprop="image" src="images/logo.png" alt="" /></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">
@@ -122,6 +123,10 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
       </div>
     </header>
   </div>
+  
+<meta itemprop="url" content="http://www.sialen.com">
+<meta itemprop="name" content="Sialen Ingenieros">
+<a href="https://plus.google.com/+MauricioCantorPuentes?rel=author"></a>
 </div>
 	
 
