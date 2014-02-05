@@ -27,10 +27,7 @@
 			$(this).css('bottom', '-200%');
 		});
 
-		$('.facebook').mouseout(function() {
-			$(this).css('bottom', '-200%');
-		});
-
+		
 	});
 	</script>
 	<?php 	$val_url = $_SERVER['REQUEST_URI'];

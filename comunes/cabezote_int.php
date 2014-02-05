@@ -83,7 +83,7 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
     <!-- Header | Logo, Menu
 		================================================== -->
     <header>
-      <div class="logo"><a href="../index.php"><img src="../images/col1_bgd.png" alt="" /></a></div>
+      <div class="logo"><a href="../index.php"><img src="../images/logo.png" alt="" /></a></div>
       <div class="mainmenu">
         <div id="mainmenu">
           <ul class="sf-menu">

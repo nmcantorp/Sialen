@@ -13,10 +13,9 @@
 <div class="container">
   <div class="one_third">
     <section class="aboutoneleft">
-      <h2>Our Phylosophy</h2>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      <img class="raster" src="images/raster.png" alt=""/>
-      <p class="quote">Etiam eget mi enim, non ultricies nisi voluptatem, illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem.</p>
+      <h2>Nuestra filosof&iacute;a</h2>
+      <p>
+      Estamos comprometidos en brindarle productos y servicios de calidad, enfoc&aacute;ndonos en proveer soluciones eficaces a la medida de sus necesidades, &nbsp;teniendo presente que la puntualidad y el cumplimiento de los tiempos de desarrollo pactados con nuestros clientes , son de crucial importancia para el crecimiento de nuestras alianzas y de sus intereses empresariales, tenemos como filosof&iacute;a mantener una relaci&oacute;n profesional &nbsp;que le genere valor a su organizaci&oacute;n y soluci&oacute;n a sus necesidades.</p>
     </section>
   </div>
   <!-- end one-third column ends here -->

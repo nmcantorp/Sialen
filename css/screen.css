@@ -188,14 +188,14 @@ div.blankSeparator2 {
 .logo {
 	float: left;
 	margin-right: 2px;
-	margin-top:15px;
+	margin-top:5px;
 	margin-bottom:10px;
-  height: 80px;
+  	height: 80px;
+  	max-width: 35%;
 }
 
 .logo img{
-  border-radius: 50% !important;
-  max-width: 30% !important;
+  max-width: 75% !important;
 }
 
 .logo span{
@@ -1361,6 +1361,14 @@ span.left {
 form#contact_form textarea {
  width: 350px;
 }
+
+.logo{
+	max-width: 25%;
+}
+
+.logo img{
+	max-width: 100% !important;
+}
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -1451,6 +1459,9 @@ ul.tabs li a {
 	float: left;
 }
  @media only screen and (max-width: 767px) {
+ .logo{
+ 	max-width: 100%;
+ }
  #mainmenu {
 visibility: hidden;
 height: 0;

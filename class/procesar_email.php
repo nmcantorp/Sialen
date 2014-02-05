@@ -151,7 +151,7 @@ if ($_REQUEST['ac']=='contact') {
 		</div>
 		<hr />
 		<p>
-			En pocos momentos lo contactaremos.</p>
+			En contados instantes lo contactaremos...!</p>
 		<p>
 			Visitenos en <a href='www.sialen.com'>www.Sialen.com</a></p>";
 
