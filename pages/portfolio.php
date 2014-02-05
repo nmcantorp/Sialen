@@ -57,6 +57,20 @@
     <p>Desarrollo del sistema de geolocalización de transporte, con base en ambiente web, genera la ubicación de los carros de transporte de carga en mapas digitales a través de GPS, dando ubicación en tiempo real, y generando reportes y estadísticas de ubicación y recorridos.</h4>
     <p class="portfolio"><a href="http://www.interpaciolo.com/_SGT/index.html" target="_blank">Visite Website</a></p>
   </div>
+  <div class="two_third">
+    <div class="flexslider">
+      <ul class="slides">
+        <li><img src="../images/portfolio/wash_1.png" alt="" /></li>
+        <li><img src="../images/portfolio/wash_2.png" alt="" /></li>
+        <li><img src="../images/portfolio/wash_3.png" alt="" /></li>
+      </ul>
+    </div>
+  </div>
+  <div class="one_third lastcolumn">
+    <h2>MR. WASH</h2>
+    <p>Pagina desarrollada bajo lenguaje HTML5, CCS3 y PHP, pensando en dar una información concreta y precisa de acuerdo a la necesidad del cliente, asistiéndolos en el servicio prestado de hosting y dominio para la creación de sus correos corporativos bajo nuestra administración.</h4>
+    <p class="portfolio"><a href="http://www.carmrwash.com/" target="_blank">Visite Website</a></p>
+  </div>
 </div>
 <!-- Portfolio Pagination ==================================================
 ================================================== -->

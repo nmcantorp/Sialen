@@ -49,9 +49,9 @@
   <!-- end one_sixth -->
   <div class="one_sixth"> <img src="images/client4.png" alt=""/> </div>
   <!-- end one_sixth -->
-  <div class="one_sixth lastcolumn"> <img src="images/client5.png" alt=""/> </div>
-  <!-- end one_sixth 
-  <div class="one_sixth"> <img src="images/client6.jpg" alt=""/> </div>-->
+  <div class="one_sixth"> <img src="images/client5.png" alt=""/> </div>
+  <!-- end one_sixth -->
+  <div class="one_sixth lastcolumn"> <img src="images/client6.png" alt=""/> </div>
   <!-- end one_sixth lastCol --> 
 </div>
 <!-- end container --> 

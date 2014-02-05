@@ -13,7 +13,7 @@ a#sitemap_actual{
 p {text-align: justify;}
 
 .one_sixth{
-  margin-right: 6.2% !important;
+  margin-right: 6.8% !important;
 }
 
 .captcha > div#error_captcha {
@@ -1312,7 +1312,7 @@ span.color {
 	width: 16.8%;
 }
 .one_sixth {
-	width: 15%;
+	width: 11%;
 }
 .one_half, .one_third, .two_third, .one_fourth, .one_fifth {
 	margin-right: 4%;
