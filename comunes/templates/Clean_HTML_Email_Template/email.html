@@ -4,7 +4,19 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta content="telephone=no" name="format-detection" />
 	<title>Email Template</title>
-	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>   
+  <script>
+
+  function cambio1(value){
+    //alert($('div.img-center a img#'+value.id).attr('src'));
+    $('a img#'+value.id).attr("src", "images/img"+value.id+"_original.jpg");
+
+  } 
+  function cambio2(value){
+    $('a img#'+value.id).attr("src", "images/img"+value.id+".jpg");
+  }
+
+  </script>
 
 	<style type="text/css" media="screen">
 		/* Linked Styles */
@@ -16,6 +28,7 @@
 
 		/* Campaign Monitor wraps the text in editor in paragraphs. In order to preserve design spacing we remove the padding/margin */
 		p { padding:0 !important; margin:0 !important } 
+
 	</style>
 </head>
 <body class="body" style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none">
@@ -34,7 +47,7 @@
 									<table border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="13"><!-- <img src="images/bullet.jpg" alt="" border="0" width="8" height="5" /> --></td>
-											<td class="top" style="color:#fff; font-family:Tahoma; font-size:12px; line-height:18px; text-align:left"><a class="link-top" style="color:#fff; text-decoration:underline" target="_blank" href="#">View Online</a></td>
+											<td class="top" style="color:#fff; font-family:Tahoma; font-size:12px; line-height:18px; text-align:left"><a class="link-top" style="color:#fff; text-decoration:underline" target="_blank" href="http://www.sialen.com/">View Online</a></td>
 											<!-- <td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="10"></td>	
 											<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="13"><img src="images/bullet.jpg" alt="" border="0" width="8" height="5" /></td>
 											<td class="top" style="color:#fff; font-family:Tahoma; font-size:12px; line-height:18px; text-align:left"><a class="link-top" style="color:#fff; text-decoration:underline" target="_blank" href="#">Forward to a Friend</a></td> -->
@@ -49,7 +62,7 @@
 				<!-- Hero -->
 				<tr>
 					<td class="img" style="font-size:0pt; line-height:0pt; text-align:left">
-						<a href="#" target="_blank"><img src="images/hero.jpg" alt="" border="0" width="800" height="395" /></a>
+						<a href="http://www.sialen.com/" target="_blank"><img src="images/hero.jpg" alt="" border="0" width="800" height="190" /></a>
 					</td>
 				</tr>
 				<!-- END Hero -->
@@ -80,7 +93,7 @@
 										<table width="100%" border="0" cellspacing="0" cellpadding="0">
 											<tr>
 												<td valign="top" width="130">
-													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img1.jpg" alt="" border="0" width="109" height="109" /></a></div>
+													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img1.jpg" alt="" border="0" width="109" height="109" id="1" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></div>
 													<div style="font-size:0pt; line-height:0pt; height:30px"><img src="images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div>
 
 
@@ -98,7 +111,7 @@
 												</td>
 												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="33"></td>
 												<td valign="top" width="130">
-													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img2.jpg" alt="" border="0" width="109" height="109" /></a></div>
+													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img2.jpg" alt="" border="0" width="109" height="109" id="2" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></div>
 													<div style="font-size:0pt; line-height:0pt; height:30px"><img src="images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div>
 
 
@@ -116,7 +129,7 @@
 												</td>
 												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="33"></td>
 												<td valign="top" width="130">
-													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img3.jpg" alt="" border="0" width="109" height="109" /></a></div>
+													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img3.jpg" alt="" border="0" width="109" height="109" id="3" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></div>
 													<div style="font-size:0pt; line-height:0pt; height:30px"><img src="images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div>
 
 
@@ -134,7 +147,7 @@
 												</td>
 												<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="33"></td>
 												<td valign="top" width="130">
-													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img4.jpg" alt="" border="0" width="109" height="109" /></a></div>
+													<div class="img-center" style="font-size:0pt; line-height:0pt; text-align:center"><a href="#" target="_blank"><img src="images/img4.jpg" alt="" border="0" width="109" height="109" id="4" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></div>
 													<div style="font-size:0pt; line-height:0pt; height:30px"><img src="images/empty.gif" width="1" height="30" style="height:30px" alt="" /></div>
 
 
@@ -189,7 +202,7 @@
 															<td>
 																<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#ffffff">
 																	<tr>
-																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img5.jpg" alt="" border="0" width="175" height="130" /></a></td>
+																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img5.jpg" alt="" border="0" width="175" height="115" /></a></td>
 																	</tr>
 																</table>
 															</td>
@@ -217,7 +230,7 @@
 															<td>
 																<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#ffffff">
 																	<tr>
-																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img6.jpg" alt="" border="0" width="175" height="130" /></a></td>
+																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img6.jpg" alt="" border="0" width="175" height="115" /></a></td>
 																	</tr>
 																</table>
 															</td>
@@ -245,7 +258,7 @@
 															<td>
 																<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#ffffff">
 																	<tr>
-																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img7.jpg" alt="" border="0" width="175" height="130" /></a></td>
+																		<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/img7.jpg" alt="" border="0" width="175" height="115" /></a></td>
 																	</tr>
 																</table>
 															</td>
@@ -292,13 +305,14 @@
 											<td align="center">
 												<table border="0" cellspacing="0" cellpadding="0">
 													<tr>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/facebook.jpg" alt="" border="0" width="43" height="43" /></a></td>
+                            <!-- Sector de redes Sociales -->
+														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="https://www.facebook.com/SialenIngenieros" target="_blank"><img src="images/img40.jpg" alt="" border="0" width="43" height="43" id="40" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></td>
 														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="7"></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/twitter.jpg" alt="" border="0" width="43" height="43" /></a></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="7"></td>
+														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="https://twitter.com/sialeningeniero" target="_blank"><img src="images/img41.jpg" alt="" border="0" width="43" height="43" id="41" onmouseover="cambio1(this)" onmouseout="cambio2(this)"/></a></td>
+														<!-- <td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="7"></td>
 														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/behance.jpg" alt="" border="0" width="43" height="43" /></a></td>
 														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left" width="7"></td>
-														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/dribble.jpg" alt="" border="0" width="43" height="43" /></a></td>
+														<td class="img" style="font-size:0pt; line-height:0pt; text-align:left"><a href="#" target="_blank"><img src="images/dribble.jpg" alt="" border="0" width="43" height="43" /></a></td> -->
 													</tr>
 												</table>
 											</td>
@@ -308,10 +322,10 @@
 
 									<div class="footer" style="color:#a9aaa9; font-family:Arial; font-size:11px; line-height:20px; text-align:center">
 										<div>
-											East Pixel Bld. 99, Creative City 9000, Republic of Design www.YourSiteName.com email@sitename.com<br />
-											Copyright &copy; <span>2013</span> <span>Company Name</span>.
+											Tv 28 # 24 - 65 Trr 9 Of. 101 www.Sialen.com info@sialen.com<br />
+											Copyright &copy; <span>2014</span> <span>Sialen Ingenieros</span>.
 										</div>
-										<a class="link5-u" style="color:#a9aaa9; text-decoration:underline" target="_blank" href="#">Unsubscribe</a>
+										<!-- <a class="link5-u" style="color:#a9aaa9; text-decoration:underline" target="_blank" href="#">Unsubscribe</a> -->
 									</div>
 									<div style="font-size:0pt; line-height:0pt; height:25px"><img src="images/empty.gif" width="1" height="25" style="height:25px" alt="" /></div>
 
