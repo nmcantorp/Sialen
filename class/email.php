@@ -10,15 +10,21 @@ class ClassMail extends ClassConexion
 
 	public $resultado = array();
 
-	function enviarEmail($nombre, $email, $mensaje, $subject, $template, $email_copy=null, $email_oculto=null){
-
-		include("phpmailer/class.phpmailer.php");
-		include("phpmailer/class.smtp.php"); // note, this is optional - gets called from main class if not already loaded
+	function enviarEmail($nombre, $email, $mensaje=null, $subject, $template, $email_copy=null, $email_oculto=null){
+		if (!class_exists("phpmailer")) {
+			require_once('phpmailer/class.phpmailer.php');
+		}
+		if (!class_exists("SMTP")) {
+			require_once('phpmailer/class.smtp.php');
+		}
+		//include("phpmailer/class.phpmailer.php");
+		//include("phpmailer/class.smtp.php"); // note, this is optional - gets called from main class if not already loaded
 
 		$mail             = new PHPMailer();
 
 		$body             = $mail->getFile($template);
-		$body             = str_replace("%body%","$mensaje",$body);
+		if(!is_null($mensaje))
+			$body             = str_replace("%body%","$mensaje",$body);
 
 		$mail->IsSMTP();
 		$mail->SMTPAuth   = true;                  // enable SMTP authentication

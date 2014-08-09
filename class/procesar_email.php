@@ -1,9 +1,38 @@
 <?php session_start();
 require_once('../class/recaptcha/recaptchalib.php'); 
 require_once('../class/parametes.php');
+require_once('email.php');
 
 $objParameters = new ClassParameters();
+$obj_mail = new ClassMail();
 $objParameters->get_Parameters();
+
+if($_REQUEST['ac']=='campania'){
+
+require_once('../class/Campanias.php');
+
+$objcampanias = new ClassCampanias();
+
+$empCampanias = $objcampanias->get_Company();
+
+$total = 0;
+//echo $_SERVER['HTTP_HOST'];die();
+for($i=0;$i < count($empCampanias) ; $i++){
+	$result_email = $obj_mail->enviarEmail($empCampanias[$i]['nom_emp'], $empCampanias[$i]['email_emp'], null, 'Ingresa al Mundo Digital', '../comunes/templates/Free_Email_Template_in_Green_Color/email.html');
+	if($result_email){
+		$total++;
+	}
+}
+
+
+header("Location: http://localhost/sialen/admin/campanas.php?resultado=$total");
+exit;
+
+}
+
+
+
+
 $captcha_publickey = captcha_publickey;
 $captcha_privatekey = captcha_privatekey;
 $error_captcha=null;
@@ -12,10 +41,6 @@ $captcha_respuesta = recaptcha_check_answer ($captcha_privatekey,$_SERVER["REMOT
 if ($captcha_respuesta->is_valid == 1) {
    //todo correcto
 //hacemos lo que se deba hacer una vez recibido el formulario válido
-
-require_once('email.php');
-
-$obj_mail = new ClassMail();
 
 if ($_REQUEST['ac']=='contact') {
 
