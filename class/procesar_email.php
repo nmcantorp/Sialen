@@ -7,7 +7,7 @@ $objParameters = new ClassParameters();
 $obj_mail = new ClassMail();
 $objParameters->get_Parameters();
 
-if($_REQUEST['ac']=='campania'){
+if($_REQUEST['ac']=='campania' || isset($argv[1])){
 
 require_once('../class/Campanias.php');
 
@@ -17,11 +17,19 @@ $empCampanias = $objcampanias->get_Company();
 
 $total = 0;
 //echo $_SERVER['HTTP_HOST'];die();
+$val = 50;
 for($i=0;$i < count($empCampanias) ; $i++){
+
+	if($i == $val){
+		$val += 50;
+		sleep(15);
+	}
+	sleep(2);
 	$result_email = $obj_mail->enviarEmail($empCampanias[$i]['nom_emp'], $empCampanias[$i]['email_emp'], null, 'Ingresa al Mundo Digital', '../comunes/templates/Free_Email_Template_in_Green_Color/email.html');
 	if($result_email){
 		$total++;
 	}
+	
 }
 
 

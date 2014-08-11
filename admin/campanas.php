@@ -13,6 +13,17 @@ if(isset($_SESSION['email'])){
     theme : 'white',
     lang : 'es'
  };
+
+$(document).ready(function(){
+  $('#enviar').click(function(){
+    alert('aca');
+    <?= exec('psexec -d C:\wamp\bin\php\php5.4.12\php.exe -f C:\wamp\www\sialen\class\procesar_email -- campania'); ?>
+  });
+
+
+
+ });
+});
  </script>
 
 <!-- Contact Content Part - Contact Form ==================================================
@@ -26,7 +37,7 @@ if(isset($_SESSION['email'])){
     <div id="contactForm">
       <h2>Déjanos un comentario</h2>
       <div class="sepContainer"></div>
-      <form action="../class/procesar_email.php?ac=campania" method="post" id="contact_form">
+      <form action="#" method="post" id="contact_form">
       	<?php if($_REQUEST['resultado']) echo "Se enviaron un total de ".$_REQUEST['resultado']." Correos " ?>
         <div class="name">
           <label for="name">Tu nombre:</label>
@@ -50,7 +61,7 @@ if(isset($_SESSION['email'])){
         	<?php //echo recaptcha_get_html($captcha_publickey, $error_captcha); ?>
         </div>
         <div id="loader">
-          <input type="submit" value="Enviar" />
+          <input type="submit" value="Enviar" id="enviar"/>
         </div>
       </form>
     </div>
