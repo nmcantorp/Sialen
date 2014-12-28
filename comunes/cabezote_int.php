@@ -47,6 +47,7 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
 <!-- CSS ==================================================
 ================================================== -->
 
+<link rel="stylesheet" href="../css/normalize.css">
 <link rel="stylesheet" href="../css/base.css">
 <link rel="stylesheet" href="../css/skeleton.css">
 <link rel="stylesheet" href="../css/screen.css">
