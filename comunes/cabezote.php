@@ -33,9 +33,10 @@ header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
 ================================================== -->
 
 <meta charset="utf-8">
-<title>Sialen Ingenieros</title>
-<meta name="description" content="Place to put your description text">
+<title>Sialen Ingenieros|Diseño, Planificación, Desarrollo y Sostenibilidad de Software a la medida, Páginas Web y Programación en general</title>
+<meta name="description" content="Empresa de Desarrollo Web, que cuenta con todos los recursos y experiencia para innovar en el mundo digital.">
 <meta name="author" content="">
+<meta name="keywords" content="Programacion pagina web, web, Desarrollo sitios web, Sitios web, Diseño Web, Bases de datos, mysql">
 <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
