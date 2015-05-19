@@ -6,7 +6,7 @@ require_once('email.php');
 $objParameters = new ClassParameters();
 $obj_mail = new ClassMail();
 $objParameters->get_Parameters();
-print_r($_REQUEST);die();
+
 if($_REQUEST['ac']=='campania' || isset($argv[1])){
 
 require_once('../class/Campanias.php');

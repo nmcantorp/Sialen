@@ -56,7 +56,7 @@ class ClassMail extends ClassConexion
 		$mail->AddAddress($email, $nombre);
 
 		$mail->IsHTML(true); // send as HTML
-
+		
 		if(!$mail->Send()) {
 		  return "Mailer Error: " . $mail->ErrorInfo;
 		} else {

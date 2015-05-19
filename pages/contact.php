@@ -106,17 +106,17 @@ if(isset($_SESSION['email'])){
         <div class="name">
           <label for="name">Tu nombre:</label>
           <p>Por favor ingresa tu nombre completo</p>
-          <input id="name" name="name" type="text" placeholder="Sr. John Smith" value="<?= $val_name ?>" required />
+          <input id="name" name="name" type="text" placeholder="Sr. John Smith" value="<?php echo $val_name; ?>" required />
         </div>
         <div class="email">
           <label for="email">Tu Email:</label>
           <p> Por favor ingresa tu Correo Electrónico</p>
-          <input id="email" name="email" type="email" placeholder="ejemplo@Dominio.com" value="<?= $val_mail ?>" required />
+          <input id="email" name="email" type="email" placeholder="ejemplo@Dominio.com" value="<?php echo $val_mail; ?>" required />
         </div>
         <div class="message">
           <label for="message">Tu mensaje:</label>
           <p>Por favor ingresa tu inquietud y/o tu mensaje</p>
-          <textarea id="message" name="message" rows="6" cols="10" required><?= $val_message ?></textarea>
+          <textarea id="message" name="message" rows="6" cols="10" required><?php echo $val_message; ?></textarea>
         </div>
         <div class="captcha">
         	<?php if (isset($_SESSION['error_captcha_contact']) && !is_null($_SESSION['error_captcha_contact'])) { ?>
